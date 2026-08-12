@@ -16,7 +16,7 @@ A responsive e-commerce web application built using React.js. Users can log in, 
 - Remove individual products from the cart
 - Remove all products from the cart
 - Update product price based on quantity
-- Display total number of items in the cart
+- Display cart item count
 - Display total order amount
 - Empty cart view when no products are available
 - Responsive design for different screen sizes
@@ -51,7 +51,7 @@ The application integrates REST APIs to provide:
 The application uses React Context API to manage cart-related functionality:
 
 - Add products to the cart
-- Prevent duplicate cart items by updating product quantity
+- Update quantity when the same product is added multiple times
 - Increase and decrease product quantity
 - Remove individual cart items
 - Remove all cart items
@@ -68,5 +68,33 @@ Make sure you have Node.js and npm installed on your system.
 
 Clone the repository:
 
-```bash
 git clone https://github.com/jainulfaisal/nxt-trendz-ecommerce.git
+
+Navigate to the project directory:
+
+cd nxt-trendz-ecommerce
+
+Install the dependencies:
+
+npm install
+
+Start the development server:
+
+npm start
+
+The application will run locally in your browser.
+
+## Project Structure
+
+The application is organized into reusable React components and includes separate routes for:
+
+- Login
+- Home
+- Products
+- Product Details
+- Cart
+- Not Found
+
+## GitHub Repository
+
+https://github.com/jainulfaisal/nxt-trendz-ecommerce
