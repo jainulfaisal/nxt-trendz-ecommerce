@@ -2,6 +2,10 @@
 
 A responsive e-commerce web application built using React.js. Users can log in, browse products, search and filter products, view product details, and manage products in their shopping cart.
 
+## Live Demo
+
+https://jainulecommerce.ccbp.tech
+
 ## Features
 
 - User login authentication using JWT tokens
@@ -83,6 +87,12 @@ Start the development server:
 npm start
 
 The application will run locally in your browser.
+
+## Demo Credentials
+
+Username: rahul
+
+Password: rahul@2021
 
 ## Project Structure
 
